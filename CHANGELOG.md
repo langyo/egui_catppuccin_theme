@@ -1,5 +1,57 @@
 # Changelog
 
+## [6.0.0](https://github.com/langyo/egui_catppuccin_theme/compare/catppuccin-egui-v5.6.0...catppuccin-egui-v6.0.0) (2025-08-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update public dependency egui
+* **deps:** update public dependency egui to 0.25
+* **deps:** Update public dependency "egui" to 0.24
+* **deps:** Public dependency egui updated from 0.21 to 0.22
+* **deps:** update egui
+
+### Features
+
+* add egui 0.32 support ([#91](https://github.com/langyo/egui_catppuccin_theme/issues/91)) ([a49020d](https://github.com/langyo/egui_catppuccin_theme/commit/a49020d4faec8e9cb62f68588bd40111111fcd6c))
+* add funtction to apply theme to a Style ([8db4c01](https://github.com/langyo/egui_catppuccin_theme/commit/8db4c01f14ca5269a21f143142bc9eba067742fc))
+* add support for egui version 0.27 ([#40](https://github.com/langyo/egui_catppuccin_theme/issues/40)) ([bb3d199](https://github.com/langyo/egui_catppuccin_theme/commit/bb3d199616da4a8e113050aa2b59639307e4f414))
+* add support for egui version 0.28 ([#44](https://github.com/langyo/egui_catppuccin_theme/issues/44)) ([e8709eb](https://github.com/langyo/egui_catppuccin_theme/commit/e8709ebe8c682fd000daa4b4444809ed767aa6b4))
+* egui 0.29 support ([#54](https://github.com/langyo/egui_catppuccin_theme/issues/54)) ([a34f691](https://github.com/langyo/egui_catppuccin_theme/commit/a34f691563300511f291883dd5642de6876d4dae))
+* egui 0.30 support ([#80](https://github.com/langyo/egui_catppuccin_theme/issues/80)) ([ef74ff6](https://github.com/langyo/egui_catppuccin_theme/commit/ef74ff64aaac7b0de837430dfc1bf010b917d81a))
+* egui 0.31 support ([#85](https://github.com/langyo/egui_catppuccin_theme/issues/85)) ([7a3dd88](https://github.com/langyo/egui_catppuccin_theme/commit/7a3dd88eb6ddd960a45034dce93454061650e8a4))
+* implement `Copy` for `Theme` ([97934d1](https://github.com/langyo/egui_catppuccin_theme/commit/97934d1d5517194c61b35913e8ac6f6970934312)), closes [#8](https://github.com/langyo/egui_catppuccin_theme/issues/8)
+* initial commit ([5a1102f](https://github.com/langyo/egui_catppuccin_theme/commit/5a1102fa04a1006edd92dc5617c0fb846119b0ca))
+* set dark_mode visuals field ([#12](https://github.com/langyo/egui_catppuccin_theme/issues/12)) ([709bfa3](https://github.com/langyo/egui_catppuccin_theme/commit/709bfa33bfefeee561c7c9208b6e70041683a68a))
+
+
+### Bug Fixes
+
+* add back old badges ([6b28ba6](https://github.com/langyo/egui_catppuccin_theme/commit/6b28ba68cc6c297318ebb3ce0c39e890d9794bb9))
+* add period to crate description ([e64ed1f](https://github.com/langyo/egui_catppuccin_theme/commit/e64ed1fa8cfff52dda2320a52394c0ac3508cf3e))
+* **deps:** update eframe and egui to 0.24 ([#18](https://github.com/langyo/egui_catppuccin_theme/issues/18)) ([bcb5849](https://github.com/langyo/egui_catppuccin_theme/commit/bcb5849b6f96b56aa4982ec3366e238371de473e))
+* **deps:** update egui ([5f7235f](https://github.com/langyo/egui_catppuccin_theme/commit/5f7235f19ff373b31c658ec50acafa0208b96f64))
+* **deps:** update egui requirement from 0.24 to 0.25 ([#20](https://github.com/langyo/egui_catppuccin_theme/issues/20)) ([99453ca](https://github.com/langyo/egui_catppuccin_theme/commit/99453cab89c10565dc5807f85ad104da6ce626fa))
+* **deps:** Update egui to 0.22 ([#6](https://github.com/langyo/egui_catppuccin_theme/issues/6)) ([8c97331](https://github.com/langyo/egui_catppuccin_theme/commit/8c973310a66b4a7fd1788ccf15e72cbd5f7f9f7d))
+* **deps:** update egui to v0.26 ([#31](https://github.com/langyo/egui_catppuccin_theme/issues/31)) ([0336114](https://github.com/langyo/egui_catppuccin_theme/commit/0336114550ae06b471596df53ea388089f6fe8d3))
+* direct links to catppuccin/egui ([be6e883](https://github.com/langyo/egui_catppuccin_theme/commit/be6e883d191a35e90ebef6efff125ac785d3bfbd))
+* don't require whiskers in build.rs ([73e0d2e](https://github.com/langyo/egui_catppuccin_theme/commit/73e0d2e21a22a07718681ee2d58b1e4688b8b35d))
+* don't set pixel ratio in `set_theme` ([3744eba](https://github.com/langyo/egui_catppuccin_theme/commit/3744eba6f8aa54d03ac55a9d777e2c8921f7ddc9))
+* improve contrast for selected elements ([4587838](https://github.com/langyo/egui_catppuccin_theme/commit/4587838d6dfae0dde127d5907b6543c7ad716536))
+* inactive and hint text colours not being faded ([#90](https://github.com/langyo/egui_catppuccin_theme/issues/90)) ([9468d77](https://github.com/langyo/egui_catppuccin_theme/commit/9468d7782ad0453bfeb0bc45c70e5e55b2d8d60f))
+* remove window border pixel from latte preview ([43ea96c](https://github.com/langyo/egui_catppuccin_theme/commit/43ea96c2f97f01570ec9523923790d2b2a328e19))
+* set example to look like the previews ([a9a5d01](https://github.com/langyo/egui_catppuccin_theme/commit/a9a5d013143257a9e83bf697502253ff18cf1c68))
+* set weak bg fill on widgets ([7f606c3](https://github.com/langyo/egui_catppuccin_theme/commit/7f606c3b7f4f45d4672ae92cc4b20d774866920a))
+* surround doc links with backticks ([6c54e55](https://github.com/langyo/egui_catppuccin_theme/commit/6c54e551aa79f25e7094fac26fb1bcdf3f086a63))
+* theme window stroke and window/popup shadows ([6dd2784](https://github.com/langyo/egui_catppuccin_theme/commit/6dd27845b5365fd5603aaeadf34758212491b267))
+* use correct color for shadows ([#70](https://github.com/langyo/egui_catppuccin_theme/issues/70)) ([38af073](https://github.com/langyo/egui_catppuccin_theme/commit/38af073771b6f1e254e08059f39b15b4f5663405))
+
+
+### Reverts
+
+* relative links don't work with crates.io ([a0a4719](https://github.com/langyo/egui_catppuccin_theme/commit/a0a4719a52e20f012dfb11a9102ac2d37e97a2f3))
+* return to previous publish workflow ([8859c58](https://github.com/langyo/egui_catppuccin_theme/commit/8859c588102b47ca3f989a89a067bc73313e12a6))
+
 ## [5.6.0](https://github.com/catppuccin/egui/compare/catppuccin-egui-v5.5.0...catppuccin-egui-v5.6.0) (2025-07-17)
 
 
